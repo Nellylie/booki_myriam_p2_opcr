@@ -1,0 +1,211 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    --background-color: #F2F2F2;
+    --colorFoncé: #0065FC;
+    --colorLight: #DEEBFF;
+    /* background-color: var(--background-color); */
+}
+
+
+
+body {
+    margin-top: 6px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-family: 'Raleway 400', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    height: 74px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 61.09px;
+}
+
+
+
+#navHebAct {
+
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 30%;
+
+}
+
+.NavHebergement {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+
+}
+
+.NavActivités {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+}
+
+#linkLogo {
+    display: block;
+    padding-top: 51px;
+
+
+}
+
+
+
+.link {
+    padding-top: 51px;
+    width: 100%;
+    text-align: center;
+}
+
+.link:hover {
+
+    padding-top: 48px;
+    border-top: 3px solid var(--colorFoncé);
+
+    color: var(--colorFoncé);
+    font-weight: 500;
+
+
+
+}
+
+#recherches {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+    margin-bottom: 10%;
+    appearance: none;
+    width: auto;
+
+
+
+
+}
+
+#maRecherche {
+
+    border: 1px solid #F2F2F2;
+
+    color: rgb(15, 14, 14);
+    padding: 10px;
+    width: 150px;
+
+}
+
+#chercher {
+    background-color: var(--colorFoncé);
+    color: white;
+    border-style: outset;
+    border: #DEEBFF;
+    border-radius: 0% 20px 20px 0%;
+    width: 90px;
+
+}
+
+#geo {
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #F2F2F2;
+    width: 50px;
+}
+
+
+
+::placeholder {
+    color: rgb(14, 14, 14);
+    opacity: 1;
+
+    font-weight: 700;
+}
+
+#filtres {
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+
+
+
+
+}
+
+.buttonFiltre:hover {
+    background: #DEEBFF;
+
+
+
+}
+
+.buttonFiltre {
+
+    border: 2px solid #e1e4e7;
+    border-radius: 20px;
+
+    background-color: white;
+
+    font-family: 'Raleway 400', sans-serif;
+    margin-right: 3%;
+}
+
+.fa-bleu {
+
+    color: #0065FC;
+}
+
+#label {
+    margin-right: 3%;
+
+}
+
+#info {
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+
+}
+
+/* encadrement avec la classe fontawsome de l icone info */
+
+.fa-border {
+
+
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid #F2F2F2;
+    margin: 40px 10px 40px 0px;
+}
+
+/*  les deux éléments (le mot pour deskop+ l’icône pour mobil) en HTML */
+
+.fa-search-mobil {
+    display: none;
+}

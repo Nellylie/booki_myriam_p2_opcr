@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+    <script src="https://kit.fontawesome.com/9b7e773b4f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <!-- logo dans len pour qu il soit clik eventuellement -->
+            <a id="linkLogo" href="#"><img class="logo" src="ImagesBooki/logo/Booki.png" alt="logo de Booki"></a>
+            <!-- navigation -->
+            <ul id="navHebAct">
+                <li class="NavHebergement"><a class="link" href="#">Hebergements</a></li>
+
+                <li class="NavActivités"><a class="link" href="#">Activités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="chercheTrouve">
+            <div id="entete">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <form role="search" action="/action_page.php" method="get">
+                <!-- <button id="geo"><i class="fa-solid fa-location-dot"></i></button> -->
+                <div id="recherches"> <button id="geo" onclick=""><span class="fa-solid fa-location-dot fa-xl"></span></button>
+                    <input type="search" id="maRecherche" name="q" placeholder="Marseille, France" size="20">
+                    <button id="chercher" name="button" type="submit">Rechercher<span class="fa-solid fa-magnifying-glass fa-search-mobil"></span></button>
+                    <!-- <button id="chercher" name="button" type="submit"><i class="fa-solid fa-magnifying-glass fa-search-mobil"></i></button> -->
+
+                    <!-- classe fa loupe mis en display none deskop mais display mobil ds le css -->
+                </div>
+
+                <div id="filtres">
+                    <label id="label">filtres :</label>
+                    <button class="buttonFiltre" name="button" type="button" onclick=""> <span
+                            class="fa-solid fa-money-bill-wave fa-bleu fa-x1"></span>&nbsp;Economique</button>
+                    <button class="buttonFiltre" name="button" type="button" onclick=""><span
+                            class="fa-solid fa-person fa-bleu fa-x1 "></span>&nbsp;Familial</button>
+                    <button class="buttonFiltre" name="button" type="button" onclick=""><span
+                            class="fa-solid fa-heart fa-bleu fa-x1"></span>&nbsp;Romantique </button>
+                    <button class="buttonFiltre" name="button" type="button" onclick=""><span
+                            class="fa-solid fa-dog fa-bleu fa-x1"></span>&nbsp;Animaux autorisés</button>
+
+
+                </div>
+                <div id="info"><span id="cadreI"> <i class="fa-solid fa-info fa-bleu fa-xs fa-border"></i></span>
+                    <p>Plus de 500 logements sont libres dans cette ville</p>
+                </div>
+            </form>
+
+
+
+
+
+
+
+        </article>
+
+
+
+    </main>
+
+</body>
+
+</html>
