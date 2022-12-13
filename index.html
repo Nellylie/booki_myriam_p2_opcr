@@ -21,7 +21,7 @@
             <a id="linkLogo" href="#"><img class="logo" src="ImagesBooki/logo/Booki.png" alt="logo de Booki"></a>
             <!-- navigation -->
             <ul id="navHebAct">
-                <li class="NavHebergement"><a class="link" href="#">Hebergements</a></li>
+                <li class="NavHebergement"><a class="link" href="#hebergement">Hebergements</a></li>
 
                 <li class="NavActivités"><a class="link" href="#">Activités</a></li>
             </ul>
@@ -33,7 +33,7 @@
     </header>
     <main>
 
-
+<section class="search">
 
         <form id="recherches" role="search" action="/action_page.php" method="get">
             <!-- <button id="geo"><i class="fa-solid fa-location-dot"></i></button> -->
@@ -44,24 +44,93 @@
             <!-- classe fa loupe mis en display none deskop mais display mobil ds le css -->
         </form>
 
-        <div id="filtres">
+        <form id="recherches" role="" action="" method="">
             <label id="label">filtres :</label>
-            <button class="buttonFiltre" name="button" type="button" onclick=""> <span
-                    class="fa-solid fa-money-bill-wave fa-bleu fa-x1"></span>&nbsp;Economique</button>
-            <button class="buttonFiltre" name="button" type="button" onclick=""><span
-                    class="fa-solid fa-person fa-bleu fa-x1 "></span>&nbsp;Familial</button>
-            <button class="buttonFiltre" name="button" type="button" onclick=""><span
-                    class="fa-solid fa-heart fa-bleu fa-x1"></span>&nbsp;Romantique </button>
-            <button class="buttonFiltre" name="button" type="button" onclick=""><span
-                    class="fa-solid fa-dog fa-bleu fa-x1"></span>&nbsp;Animaux autorisés</button>
-        </div>
+            <button class="buttonFiltre" name="button1" type="button"> <a href="#"><span
+                    class="fa-solid fa-money-bill-wave fa-bleu fa-x1"></span>&nbsp;Economique</a></button>
+            <button class="buttonFiltre" name="button2" type="button"><a href="#"><span
+                    class="fa-solid fa-person fa-bleu fa-x1 "></span>&nbsp;Familial</a></button>
+            <button class="buttonFiltre" name="button3" type="button"><a href="#"><span
+                    class="fa-solid fa-heart fa-bleu fa-x1"></span>&nbsp;Romantique</a></button>
+            <button class="buttonFiltre" name="button4" type="button"><a href="#"><span
+                    class="fa-solid fa-dog fa-bleu fa-x1"></span>&nbsp;Animaux autorisés </a></button>
+        </form>
+    </section>
 
+    <section class="resultat-heergement">
 
         <div id="info"><span id="cadreI"> <i class="fa-solid fa-info fa-bleu fa-xs fa-border"></i></span>
             <p>Plus de 500 logements sont libres dans cette ville</p>
-        </div><section>
-<h2>Hébergement à Marseille</h2>
-<div></div>
+        </div>
+
+
+        <article class="carte-hebergement">
+<h2 id="titre-article heb">Hébergement à Marseille</h2>
+
+
+<div class="image-h-marseille">
+    <a href="#">
+        <!-- image  -->
+        <!-- <div id="hebergement"
+        class="carte-image"><img class="photos" src="ImagesBooki/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg/"></div> -->
+             
+
+<!-- ImagesBooki/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
+ImagesBooki/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg
+ ImagesBooki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg -->
+
+  
+
+</a>
+</div>
+
+
+<div class="image-h-marseille">
+    <a href="#">
+       
+
+  
+
+</a>
+</div>
+
+
+<div class="image-h-marseille">
+    <a href="#">
+       
+
+  
+
+</a>
+</div>
+
+<div class="image-h-marseille">
+    <a href="#">
+       
+
+  
+
+</a>
+</div>
+
+
+<div class="image-h-marseille">
+    <a href="#">
+       
+
+  
+
+</a>
+</div>
+
+<div class="image-h-marseille">
+    <a href="#">
+       
+
+  
+
+</a>
+</div>
 
 
 
@@ -70,7 +139,61 @@
 
 
 
-        </section>
+<article  class="carte-heb-populaire" >
+   <div class="flex-titre-logo-populaire"> <h2 id="titre-article heb">Les plus populaires</h2>
+    <!-- <span>logo</span> --></div>
+
+<div class="img-pop-marseille">
+
+   </div>
+
+   <div class="img-pop-marseille">
+
+   </div>
+   <div class="img-pop-marseille">
+
+   </div>
+
+
+
+
+
+</article>
+
+</section>
+
+
+<section class="resultat-activité"> 
+
+    <h2>Activités à Marseille</h2>
+<article></article>
+
+    <div class="img-act-marseille">
+
+    </div>
+
+ 
+   
+    <div class="img-act-marseille">
+ 
+    </div>
+
+
+    <div class="img-act-marseille">
+ 
+    </div>
+
+
+
+    <div class="img-act-marseille">
+ 
+    </div>
+
+
+ 
+</article>
+
+    </section>
        
 
 
@@ -84,7 +207,9 @@
 
 
     </main>
+<footer>
 
+</footer>
 </body>
 
-</html>
+</html> 

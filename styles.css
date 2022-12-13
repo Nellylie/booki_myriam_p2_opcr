@@ -1,10 +1,11 @@
 :root {
     margin: 0px;
     padding: 0px;
-    --background-color: #F2F2F2;
+    --background-gris: #f2f2f2;
     --colorFoncé: #0065FC;
     --colorLight: #DEEBFF;
-    /* background-color: var(--background-color); */
+   
+ 
 }
 
 
@@ -14,7 +15,8 @@ body {
     padding-left: 2.5%;
     padding-right: 2.5%;
     font-family: 'Raleway 400', sans-serif;
-
+    max-width: 1400px;
+background-color:var(--backgroundGris);  
 }
 
 a {
@@ -25,6 +27,9 @@ a {
 h1{
 
     font-size: 22px;font-weight: 700px;line-height: 26px;
+}
+h2{
+    font-size: 16px;font-weight: 700px;line-height: 26px;
 }
 
 nav {
@@ -88,7 +93,7 @@ nav {
 
 .link:hover {
 
-    padding-top: 48px;
+    padding-top: 61px;
     border-top: 3px solid var(--colorFoncé);
 
     color: var(--colorFoncé);
@@ -97,9 +102,7 @@ nav {
 
 
 }
-#entete{font-size: small;
-   
-}
+
 
 #recherches {
     display: flex;
@@ -172,13 +175,16 @@ nav {
 
 .buttonFiltre {
 
-    border: 2px solid #e1e4e7;
+    border: 2px solid #f2f2f2;
     border-radius: 20px;
 
     background-color: white;
 
     font-family: 'Raleway 400', sans-serif;
+    font-weight: 500;
     margin-right: 3%;
+    height: 32px;
+
 }
 
 .fa-bleu {
@@ -215,4 +221,14 @@ nav {
 
 .fa-search-mobil {
     display: none;
+}
+.photos{
+
+
+    width: 20%;height: 50px;
+}
+#carte-heb-marseille{
+
+
+    display: flex;
 }
