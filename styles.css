@@ -118,6 +118,27 @@ nav {
 
 
 }
+#recherches-filtre {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+    margin-bottom: 10%;
+    appearance: none;
+    width: auto;
+
+align-items: center;
+
+
+}
+
+#label {
+    margin-right: 3%;
+   
+
+}
+
 
 #maRecherche {
 
@@ -192,10 +213,7 @@ nav {
     color: #0065FC;
 }
 
-#label {
-    margin-right: 3%;
 
-}
 
 #info {
 
