@@ -22,6 +22,10 @@ a {
     color: black;
 
 }
+h1{
+
+    font-size: 22px;font-weight: 700px;line-height: 26px;
+}
 
 nav {
     padding-left: 0px;
@@ -33,7 +37,7 @@ nav {
 }
 
 .logo {
-    width: 61.09px;
+    width: 61px;
 }
 
 
@@ -92,6 +96,9 @@ nav {
 
 
 
+}
+#entete{font-size: small;
+   
 }
 
 #recherches {
