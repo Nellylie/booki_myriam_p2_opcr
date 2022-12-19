@@ -12,7 +12,7 @@
 
 body {
     margin: 0px auto;
-  
+
     font-family: 'Raleway 400', sans-serif;
     max-width: 1400px;
     background-color: white;
@@ -37,17 +37,18 @@ h2 {
     line-height: 26px;
 }
 
-nav {display: flex;
+nav {
+    display: flex;
     flex-wrap: wrap;
-  
-   
-    
+
+
+
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    
+
     width: 61px;
 }
 
@@ -69,7 +70,7 @@ nav {display: flex;
 
 .NavHebergement {
     display: flex;
-    
+
     justify-content: center;
     align-items: flex-end;
     width: 50%;
@@ -250,9 +251,9 @@ nav {display: flex;
 
     justify-content: space-evenly;
     background-color: rgb(235, 235, 235);
-    width:60%;
+    width: 60%;
     border-radius: 20px 20px 20px 20px;
-    
+
 
 
 }
@@ -293,13 +294,14 @@ nav {display: flex;
     flex-direction: column;
 
     background-color: rgb(255, 255, 255);
-width: 246px;
+    width: 246px;
     height: 199px;
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
 
-margin: 0;margin-bottom: 30px;
+    margin: 0;
+    margin-bottom: 30px;
 
 
 
@@ -315,7 +317,8 @@ margin: 0;margin-bottom: 30px;
 
 .titre-heb {
 
-    padding:40px;margin:auto;
+    padding: 40px;
+    margin: auto;
     flex: 100%;
 
 }
@@ -334,7 +337,7 @@ margin: 0;margin-bottom: 30px;
     flex-direction: row;
     flex-wrap: wrap;
 
-   align-content: space-between;
+    align-content: space-between;
     justify-content: space-around;
 }
 
@@ -348,15 +351,15 @@ margin: 0;margin-bottom: 30px;
     background-color: rgb(235, 235, 235);
 
     border-radius: 20px 20px 20px 20px;
-  
 
-    width:30%;
+
+    width: 30%;
 
     justify-content: space-between;
     background-color: rgb(235, 235, 235);
-   
+
     border-radius: 20px 20px 20px 20px;
-    
+
 
 
 }
@@ -383,11 +386,11 @@ margin: 0;margin-bottom: 30px;
 
     width: 100%;
     height: 100%;
-    
+
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     margin: 0px auto;
-  
+
 
 
 }
@@ -395,10 +398,12 @@ margin: 0;margin-bottom: 30px;
 .pop-description {
     flex-direction: column;
     display: flex;
-    
-    font-size: 14px;margin: 0;
+
+    font-size: 14px;
+    margin: 0;
     justify-content: space-between;
-width: 50%;margin: auto;
+    width: 50%;
+    margin: auto;
 
 
 
@@ -408,8 +413,8 @@ width: 50%;margin: auto;
 .titre-icon-pop {
 
     display: flex;
-align-items: baseline;
-padding: 0 30px;
+    align-items: baseline;
+    padding: 0 30px;
 
 
 
@@ -420,8 +425,8 @@ padding: 0 30px;
 .titre-pop {
 
     flex: 1;
-margin: 0px 0px;
-padding-top: 40px;
+    margin: 0px 0px;
+    padding-top: 40px;
 }
 
 .plus {
@@ -447,53 +452,57 @@ padding-top: 40px;
     line-height: 16px;
 }
 
-.img-cover{
-width: 137px;
-height: 144px;
+.img-cover {
+    width: 137px;
+    height: 144px;
 
 }
-.act-img-taille{
+
+.act-img-taille {
 
     width: 100%;
     height: 100%;
     border: 0px solid rgb(255, 255, 255);
-   
+
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     margin: 0px auto;
-  
-  
+
+
 
 }
-.carte-activité{
+
+.carte-activité {
 
     display: flex;
     flex-direction: row;
-   flex-wrap: wrap;
-  justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-width: 95%;
+    width: 95%;
 
 }
-.titre-act{
-align-items: baseline;
+
+.titre-act {
+    align-items: baseline;
     flex: 100%;
 
 
 
 }
-.activité-card{
-display: flex;
-flex-direction: column;
- 
+
+.activité-card {
+    display: flex;
+    flex-direction: column;
+
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
-align-items: flex-start;
-border: 5px solid #F2F2F2;
+    align-items: flex-start;
+    border: 5px solid #F2F2F2;
 
-margin: 0 0;
+    margin: 0 0;
 
-background-color:white;
+    background-color: white;
 
 
 
@@ -503,9 +512,42 @@ background-color:white;
 
 
 }
-.img-act-cover{
+
+.img-act-cover {
 
     width: 302px;
     height: 445.51px;
+
+}
+.footer-booki {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 20px 50px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.footer-booki-elements {
+    flex: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.footer-booki-elements>ul>li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer-booki-elements-titre {
+    flex: 1;
+    padding: 0px 45px;
 
 }
