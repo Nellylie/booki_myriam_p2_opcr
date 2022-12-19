@@ -4,19 +4,18 @@
     --background-gris: #f2f2f2;
     --colorFoncé: #0065FC;
     --colorLight: #DEEBFF;
-   
- 
+
+
 }
 
 
 
 body {
-    margin-top: 6px;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    margin: 0px auto;
+  
     font-family: 'Raleway 400', sans-serif;
     max-width: 1400px;
-background-color:var(--backgroundGris);  
+    background-color: white;
 }
 
 a {
@@ -24,24 +23,31 @@ a {
     color: black;
 
 }
-h1{
 
-    font-size: 22px;font-weight: 700px;line-height: 26px;
-}
-h2{
-    font-size: 16px;font-weight: 700px;line-height: 26px;
+h1 {
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
 }
 
-nav {
-    padding-left: 0px;
-    padding-right: 0px;
-    display: flex;
-    height: 74px;
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+nav {display: flex;
+    flex-wrap: wrap;
+  
+   
+    
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
+    
     width: 61px;
 }
 
@@ -63,6 +69,7 @@ nav {
 
 .NavHebergement {
     display: flex;
+    
     justify-content: center;
     align-items: flex-end;
     width: 50%;
@@ -86,7 +93,7 @@ nav {
 
 
 .link {
-    padding-top: 51px;
+    padding-top: 64px;
     width: 100%;
     text-align: center;
 }
@@ -118,6 +125,7 @@ nav {
 
 
 }
+
 #recherches-filtre {
     display: flex;
 
@@ -128,14 +136,14 @@ nav {
     appearance: none;
     width: auto;
 
-align-items: center;
+    align-items: center;
 
 
 }
 
 #label {
     margin-right: 3%;
-   
+
 
 }
 
@@ -235,8 +243,269 @@ align-items: center;
     margin: 40px 10px 40px 0px;
 }
 
+.carte-hebergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    background-color: rgb(235, 235, 235);
+    width:60%;
+    border-radius: 20px 20px 20px 20px;
+    
+
+
+}
+
+.heb-img-taille {
+
+
+    width: 246px;
+    height: 124px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    margin: 0px auto;
+
+}
+
+.heb-description {
+    display: flex;
+    font-size: 14px;
+
+    line-height: 2px;
+
+    flex-direction: column;
+
+    padding: 0 16px;
+
+}
+
+
+
+
+
+
+
+.hebergements-card {
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(255, 255, 255);
+width: 246px;
+    height: 199px;
+    border: 5px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+
+margin: 0;margin-bottom: 30px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.titre-heb {
+
+    padding:40px;margin:auto;
+    flex: 100%;
+
+}
+
 /*  les deux éléments (le mot pour deskop+ l’icône pour mobil) en HTML */
 
 .fa-search-mobil {
     display: none;
+}
+
+.resultat-hebergement {
+
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   align-content: space-between;
+    justify-content: space-around;
+}
+
+.carte-popularité {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    background-color: rgb(235, 235, 235);
+
+    border-radius: 20px 20px 20px 20px;
+  
+
+    width:30%;
+
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+   
+    border-radius: 20px 20px 20px 20px;
+    
+
+
+}
+
+.popularité-card {
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(255, 255, 255);
+
+    height: auto;
+    width: auto;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+
+    align-content: space-between;
+    justify-content: flex-start;
+    flex: 2;
+
+}
+
+.pop-img-taille {
+
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    margin: 0px auto;
+  
+
+
+}
+
+.pop-description {
+    flex-direction: column;
+    display: flex;
+    
+    font-size: 14px;margin: 0;
+    justify-content: space-between;
+width: 50%;margin: auto;
+
+
+
+
+}
+
+.titre-icon-pop {
+
+    display: flex;
+align-items: baseline;
+padding: 0 30px;
+
+
+
+
+
+}
+
+.titre-pop {
+
+    flex: 1;
+margin: 0px 0px;
+padding-top: 40px;
+}
+
+.plus {
+
+
+    padding: 16px;
+    flex: 100%;
+
+
+}
+
+.fa-gris {
+    color: #e6d8d8;
+}
+
+.cote-etoile {
+
+    padding: 6px;
+
+}
+
+.desc {
+    line-height: 16px;
+}
+
+.img-cover{
+width: 137px;
+height: 144px;
+
+}
+.act-img-taille{
+
+    width: 100%;
+    height: 100%;
+    border: 0px solid rgb(255, 255, 255);
+   
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    margin: 0px auto;
+  
+  
+
+}
+.carte-activité{
+
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+  justify-content: space-between;
+
+width: 95%;
+
+}
+.titre-act{
+align-items: baseline;
+    flex: 100%;
+
+
+
+}
+.activité-card{
+display: flex;
+flex-direction: column;
+ 
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
+align-items: flex-start;
+border: 5px solid #F2F2F2;
+
+margin: 0 0;
+
+background-color:white;
+
+
+
+
+
+
+
+
+}
+.img-act-cover{
+
+    width: 302px;
+    height: 445.51px;
+
 }
