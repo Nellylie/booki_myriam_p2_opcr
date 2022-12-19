@@ -261,14 +261,21 @@ nav {
 .heb-img-taille {
 
 
-    width: 246px;
-    height: 124px;
+    width: 100%;
+    height:100%;
     border: 0px solid rgb(255, 255, 255);
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     margin: 0px auto;
 
 }
+
+.img-cover-heb{
+    width:246px ;
+    height:124px ;
+}
+
+
 
 .heb-description {
     display: flex;
@@ -452,7 +459,7 @@ nav {
     line-height: 16px;
 }
 
-.img-cover {
+.img-cover-pop {
     width: 137px;
     height: 144px;
 
@@ -516,7 +523,7 @@ nav {
 .img-act-cover {
 
     width: 302px;
-    height: 445.51px;
+    height: 444.51px;
 
 }
 .footer-booki {
